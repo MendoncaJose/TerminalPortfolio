@@ -8,15 +8,15 @@
 
 ### Matrix Intro
 
-![Matrix intro with signal detected HUD](./docs/screenshots/intro-signal-detected.png)
+![Matrix intro with signal detected HUD](./src/public/screenshots/intro-signal-detected.png)
 
 ### Projects Dashboard
 
-![Terminal dashboard projects view](./docs/screenshots/dashboard-projects.png)
+![Terminal dashboard projects view](./src/public/screenshots/dashboard-projects.png)
 
 ### Contact Transmission
 
-![Terminal contact transmission view](./docs/screenshots/contact-transmission.png)
+![Terminal contact transmission view](./src/public/screenshots/contact-transmission.png)
 
 ---
 
@@ -44,14 +44,14 @@ The goal: a recruiter or engineering lead can explore skills, projects, and cont
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | React + TypeScript |
-| Bundler | Vite |
-| Styling | Tailwind CSS v4 + hand-written CSS |
+| Layer       | Technology                                        |
+| ----------- | ------------------------------------------------- |
+| Framework   | React + TypeScript                                |
+| Bundler     | Vite                                              |
+| Styling     | Tailwind CSS v4 + hand-written CSS                |
 | 3D / Shader | WebGL (dither shader via custom canvas component) |
-| Fonts | JetBrains Mono, Fira Code |
-| Icons | Lucide React |
+| Fonts       | JetBrains Mono, Fira Code                         |
+| Icons       | Lucide React                                      |
 
 ---
 
@@ -153,9 +153,3 @@ All portfolio content lives in `src/data.ts`. Edit that file to change:
 MIT — use freely, credit appreciated.
 
 ---
-
-<!-- Add live demo link when deployed -->
-<!-- **Live:** [jose.sys](https://yoursite.com) -->
-
-<!-- Add contact link -->
-<!-- **Contact:** mendoncajose7@gmail.com -->
