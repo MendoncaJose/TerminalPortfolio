@@ -54,12 +54,13 @@ export const initialProjects: Project[] = [
     liveDemoUrl: '#',
   },
   {
-    id: 'cyango_editor',
-    title: 'CYANGO_EDITOR',
-    description: 'Editor-style interface concept focused on fast content manipulation and clean UX.',
-    tags: ['React', 'Zustand', 'CSS'],
+    id: 'cloud_studio',
+    title: 'CYANGO_CLOUD_STUDIO',
+    description:
+      'Cyango Cloud Studio is a web-based ecosystem for creating, publishing and sharing immersive XR experiences across web, AR and VR. The suite includes tools for building 3D and Gaussian splat experiences, publishing content, sharing adaptive links and creating spatial commerce experiences.',
+    tags: ['React', 'TypeScript', 'JavaScript', 'Node.js', 'MongoDB', 'REST APIs', 'Zustand', 'Tailwind CSS', 'MUI', 'PrimeReact'],
     status: 'DEV',
-    liveDemoUrl: '#',
+    liveDemoUrl: 'https://www.cyango.com/',
   },
 ];
 

@@ -4,8 +4,19 @@
 
 ---
 
-<!-- SCREENSHOT: Full dashboard view (desktop) -->
-<!-- ![Dashboard](./video-frames/frame-01.jpg) -->
+## Screenshots
+
+### Matrix Intro
+
+![Matrix intro with signal detected HUD](./docs/screenshots/intro-signal-detected.png)
+
+### Projects Dashboard
+
+![Terminal dashboard projects view](./docs/screenshots/dashboard-projects.png)
+
+### Contact Transmission
+
+![Terminal contact transmission view](./docs/screenshots/contact-transmission.png)
 
 ---
 
@@ -31,37 +42,11 @@ The goal: a recruiter or engineering lead can explore skills, projects, and cont
 
 ---
 
-<!-- SCREENSHOT: Boot sequence / intro -->
-<!-- Replace path below with your screenshot -->
-<!-- ![Boot](./video-frames/frame-02.jpg) -->
-
----
-
-<!-- SCREENSHOT: Profile view -->
-<!-- ![Profile](./video-frames/frame-03.jpg) -->
-
----
-
-<!-- SCREENSHOT: Projects view -->
-<!-- ![Projects](./video-frames/frame-04.jpg) -->
-
----
-
-<!-- SCREENSHOT: Contact view -->
-<!-- ![Contact](./video-frames/frame-05.jpg) -->
-
----
-
-<!-- SCREENSHOT: Mobile layout -->
-<!-- ![Mobile](./video-frames/frame-06.jpg) -->
-
----
-
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Framework | React 18 + TypeScript |
+| Framework | React + TypeScript |
 | Bundler | Vite |
 | Styling | Tailwind CSS v4 + hand-written CSS |
 | 3D / Shader | WebGL (dither shader via custom canvas component) |
@@ -160,11 +145,6 @@ All portfolio content lives in `src/data.ts`. Edit that file to change:
 **Dither shader on the profile image.** The image is processed frame-by-frame through a WebGL fragment shader that applies ordered dithering, giving it a monochrome terminal-screen quality.
 
 **CRT overlay.** A fixed `pointer-events: none` layer adds scanlines and subtle chromatic aberration without interfering with interaction.
-
----
-
-<!-- SCREENSHOT: Close-up of dither shader on profile -->
-<!-- ![Dither effect](./video-frames/frame-07.jpg) -->
 
 ---
 
