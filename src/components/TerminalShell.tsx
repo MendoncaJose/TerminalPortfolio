@@ -42,7 +42,7 @@ export function TerminalShell({ currentDirectory, terminalHistory, onCommand }: 
             ref={inputRef}
             id="terminalCommand"
             value={command}
-            style={{ width: `${Math.min(Math.max(command.length + 1, 1), 42)}ch` }}
+            style={{ width: `${Math.min(command.length, 42)}ch` }}
             onChange={(event) => setCommand(event.target.value)}
             autoComplete="off"
             spellCheck={false}

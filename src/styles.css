@@ -1016,8 +1016,8 @@ a {
 }
 
 .shell-input-row input {
-  min-width: 1ch;
-  max-width: calc(100% - 1.2ch);
+  min-width: 0;
+  max-width: calc(100% - 1ch);
   flex: 0 1 auto;
   border: 0;
   padding: 0;
@@ -1030,7 +1030,7 @@ a {
 
 .terminal-caret {
   flex: 0 0 auto;
-  margin-left: 2px;
+  margin-left: 0;
   color: var(--green);
   line-height: 1;
   filter: drop-shadow(0 0 5px rgba(51, 255, 0, 0.72));
@@ -1194,7 +1194,6 @@ a {
     grid-template-columns: minmax(210px, 250px) minmax(0, 1fr) minmax(250px, 300px);
     gap: 12px;
   }
-
 }
 
 @media (max-width: 1080px) {
