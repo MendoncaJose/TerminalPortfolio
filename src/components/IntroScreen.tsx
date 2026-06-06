@@ -14,10 +14,12 @@ export function IntroScreen({ onStart }: IntroScreenProps) {
   return (
     <section className="intro-screen" aria-label="Matrix intro">
       <MatrixIntro />
-      <button className="start-button" onClick={handleStart} type="button">
-        <span className="start-kicker">jose@portfolio:~$ ./start</span>
-        <strong>CLICK TO START</strong>
-        <span className="start-subline">[ SYSTEM_AWAITS_INPUT ]</span>
+      <button className="start-hud" onClick={handleStart} type="button">
+        <span className="hud-scanline" aria-hidden="true" />
+        <span className="hud-kicker">MATRIX_STREAM_ACTIVE</span>
+        <strong>SIGNAL DETECTED</strong>
+        <span className="hud-action">CLICK TO START</span>
+        <span className="hud-footer">[ AUTH_HANDSHAKE_PENDING ]</span>
       </button>
     </section>
   );
