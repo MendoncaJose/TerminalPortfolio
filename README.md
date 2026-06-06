@@ -8,15 +8,15 @@
 
 ### Matrix Intro
 
-![Matrix intro with signal detected HUD](./src/public/screenshots/intro-signal-detected.png)
+![Matrix intro with signal detected HUD](src/public/screenshots/intro-signal-detected.png)
 
 ### Projects Dashboard
 
-![Terminal dashboard projects view](./src/public/screenshots/dashboard-projects.png)
+![Terminal dashboard projects view](src/public/screenshots/dashboard-projects.png)
 
 ### Contact Transmission
 
-![Terminal contact transmission view](./src/public/screenshots/contact-transmission.png)
+![Terminal contact transmission view](src/public/screenshots/contact-transmission.png)
 
 ---
 
